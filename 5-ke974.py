@@ -4,7 +4,7 @@ for i in range(100):
     for _ in range(2):
         if n[-1:] == n[-2:-1]:
             n += '0'
-        else:
+        else: 
             n += '1'
     r = int(n, base=2)
     if r > 93:
